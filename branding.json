@@ -1,0 +1,140 @@
+{
+    "colorScheme": "light",
+    "fonts": [
+        {
+            "family": "Nunito",
+            "role": "body"
+        }
+    ],
+    "colors": {
+        "primary": "#E57DB1",
+        "accent": "#E57DB1",
+        "background": "#FAF3F6",
+        "textPrimary": "#685F70",
+        "link": "#685F70"
+    },
+    "typography": {
+        "fontFamilies": {
+            "primary": "Nunito",
+            "heading": "Nunito"
+        },
+        "fontStacks": {
+            "heading": [
+                "Nunito",
+                "sans-serif"
+            ],
+            "body": [
+                "Nunito",
+                "sans-serif"
+            ],
+            "paragraph": [
+                "Nunito",
+                "sans-serif"
+            ]
+        },
+        "fontSizes": {
+            "h1": "96px",
+            "h2": "48px",
+            "body": "20px"
+        }
+    },
+    "spacing": {
+        "baseUnit": 8,
+        "borderRadius": "0px"
+    },
+    "components": {
+        "input": {
+            "background": "#FAF3F6",
+            "textColor": "#31252A",
+            "borderColor": "#ECD8E0",
+            "borderRadius": "33554400px",
+            "borderRadiusCorners": {
+                "topLeft": "33554400px",
+                "topRight": "33554400px",
+                "bottomRight": "33554400px",
+                "bottomLeft": "33554400px"
+            },
+            "shadow": "rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0.05) 0px 1px 2px 0px"
+        },
+        "buttonPrimary": {
+            "background": "#E57DB1",
+            "textColor": "#FFFAFC",
+            "borderRadius": "33554400px",
+            "borderRadiusCorners": {
+                "topLeft": "33554400px",
+                "topRight": "33554400px",
+                "bottomRight": "33554400px",
+                "bottomLeft": "33554400px"
+            },
+            "shadow": "oklab(0.720001 0.137854 -0.02429 / 0.3) 0px 0px 20px 0px"
+        },
+        "buttonSecondary": {
+            "background": "#FAF3F6",
+            "textColor": "#31252A",
+            "borderColor": "#F4D0E1",
+            "borderRadius": "33554400px",
+            "borderRadiusCorners": {
+                "topLeft": "33554400px",
+                "topRight": "33554400px",
+                "bottomRight": "33554400px",
+                "bottomLeft": "33554400px"
+            },
+            "shadow": "rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0.05) 0px 1px 2px 0px"
+        }
+    },
+    "images": {
+        "logo": "File saved at: attached_assets/logo.svg",
+        "favicon": "File saved at: attached_assets/favicon.png",
+        "ogImage": null,
+        "logoHref": "File saved at: attached_assets/logoHref.html"
+    },
+    "__llm_logo_reasoning": {
+        "selectedIndex": 0,
+        "reasoning": "Selected #0 because it is visible, located in the header, and matches the brand's favicon, indicating it is the main logo for BerryStylish.",
+        "confidence": 0.9,
+        "source": "llm"
+    },
+    "__llm_button_reasoning": {
+        "primary": {
+            "index": 0,
+            "text": "Start Playing Free",
+            "reasoning": "Button #0 'Start Playing Free' uses the vibrant brand color #E57DB1 and has action-oriented text, making it the primary CTA."
+        },
+        "secondary": {
+            "index": 2,
+            "text": "Explore NFTs",
+            "reasoning": "Button #2 'Explore NFTs' has a different background color #FAF3F6 and serves as a secondary action, fitting the criteria for a secondary button."
+        },
+        "confidence": 0.95
+    },
+    "personality": {
+        "tone": "playful",
+        "energy": "high",
+        "targetAudience": "gamers and NFT enthusiasts"
+    },
+    "designSystem": {
+        "framework": "tailwind",
+        "componentLibrary": ""
+    },
+    "confidence": {
+        "buttons": 0.95,
+        "colors": 0.9,
+        "overall": 0.925
+    },
+    "__llm_metadata": {
+        "logoSelection": {
+            "llmCalled": true,
+            "llmSucceeded": true,
+            "finalSource": "llm",
+            "rawLogoSelection": {
+                "selectedLogoIndex": 0,
+                "selectedLogoReasoning": "Selected #0 because it is visible, located in the header, and matches the brand's favicon, indicating it is the main logo for BerryStylish.",
+                "confidence": 0.9
+            }
+        },
+        "buttonClassification": {
+            "llmCalled": true,
+            "llmSucceeded": true
+        }
+    }
+}

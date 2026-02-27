@@ -1,0 +1,53 @@
+# Dependency directories
+node_modules/
+bun.lockb
+package-lock.json
+yarn.lock
+
+# Build directories
+.next/
+out/
+build/
+dist/
+.remotion/
+.vscode/
+.agent/
+
+# Misc
+skills-lock.json
+
+# Sensitive Information
+.env
+.env.*
+!.env.example
+*.pem
+wallet-keypair.json
+*keypair.json
+my-wallet/
+secrets/
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Editor directories and files
+.idea/
+.vscode/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?

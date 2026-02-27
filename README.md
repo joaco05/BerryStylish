@@ -1,0 +1,69 @@
+# BerryStylish 🍓
+
+BerryStylish is a Web3 social platform built on the Solana blockchain that lets users create, share, and discover stylish outfits. Currently under active development, the platform integrates Solana wallet connectivity, custom tokens (BRRY), and on-chain interactions.
+
+> ⚠️ **SECURITY & DEPLOYMENT NOTICE**
+> 
+> - **Environment:** This application is currently running on **Solana Devnet**. Any tokens (BRRY, SOL, etc.) or assets interacted with in this state have no real-world value.
+> - **Security Audit:** This project **HAS NOT YET RECEIVED A SECURITY AUDIT**. The smart contracts, backend integration, and frontend components may contain vulnerabilities. Do not use this code in production or with real mainnet funds until a professional audit has been completed.
+
+## 🏗️ Project Structure
+
+The repository is organized into several key directories:
+
+### `/website`
+The core frontend application built with Next.js 14+ (App Router).
+- **`/app`**: Next.js app router containing the main pages and layouts.
+- **`/components`**: Reusable React components (UI elements, layout components, etc.).
+- **`/hooks`**: Custom React hooks for state management and wallet integrations.
+- **`/lib`**: Utility functions, API helpers, and blockchain connection logic.
+- **`/public`**: Static assets like images and icons.
+- **Technologies:** Next.js (React), Tailwind CSS, Radix UI components, Solana Web3.js, Wallet Adapter, Metaplex Umi.
+
+### `/apis`
+Backend services and API endpoints that support the frontend application.
+
+### `/my-video`
+Contains video synthesis templates and code built with Remotion, likely used for generating dynamic social media previews or promotional content for the outfits created.
+
+### `/berrystylish`
+Core Solana smart contract/program files and configuration scripts for the on-chain logic of the application.
+
+### `/Sprites-Assets`
+Art assets, sprites, and graphical resources used across the application.
+
+## 🚀 Getting Started
+
+### Prerequisites
+- Node.js (v18 or higher)
+- Bun or pnpm (recommended for `/website`)
+- A Solana Wallet (e.g., Phantom, Solflare) set to **Devnet**
+
+### Running the Web Application
+
+1. Navigate to the website directory:
+   ```bash
+   cd website
+   ```
+
+2. Install dependencies:
+   ```bash
+   bun install
+   # or
+   pnpm install
+   ```
+
+3. Set up your environment variables:
+   Copy whatever `.env.example` exists to `.env.local` and fill in the required Devnet endpoints and API keys.
+
+4. Start the development server:
+   ```bash
+   bun run dev
+   # or
+   npm run dev
+   ```
+
+5. Open [http://localhost:3000](http://localhost:3000) in your browser.
+
+## 🤝 Contributing
+As this project is in an early stage, structural changes happen frequently. Please ensure all wallet interactions remain pointed towards Devnet during development.
